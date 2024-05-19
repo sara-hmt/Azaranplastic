@@ -1,0 +1,54 @@
+
+body {
+  direction: rtl;
+  font-family: YekanBakh;
+}
+
+.sanavbar-pic {
+  background-image: url("../images/navbarpic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.sanavbar-pic2{
+  background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.3) 52%, #000 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+/************** navbar css codes***************/
+.sa-navbar{
+  width: 80vw;
+  font-size: 12px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.sabtn-nav{
+  font-size: 12px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+/* .sanav-item::after{
+  content: "|";
+  color: white;
+  display: inline-block;
+} */
+/************** navbar css codes***************/
+
+
+
+@font-face{
+  font-family: YekanBakh;
+  src:url('../fonts/YekanBakh-Regular.ttf')
+}
