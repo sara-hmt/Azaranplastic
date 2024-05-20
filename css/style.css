@@ -44,7 +44,39 @@ body {
   color: white;
   display: inline-block;
 } */
-/************** navbar css codes***************/
+/************** end of navbar css codes***************/
+
+/************** section-nav codes***************/
+
+.section-nav{
+  width: 100vw;
+}
+.section1{
+  color: white; 
+}
+ .part1{
+  width: 60vw;
+  text-align: center;
+}
+.part1 p{
+  font-size: 0.7rem;
+  line-height: 1.71;
+
+} 
+.scroll{
+  width: 100px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 300px;
+  left: 120px;
+}
+.scroll svg{
+  position: relative;
+  top:5px;
+  right:10px;
+}
+/************** end of section-nav codes***************/
 
 
 
