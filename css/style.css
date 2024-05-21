@@ -9,14 +9,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
 }
 .sanavbar-pic2{
   background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.3) 52%, #000 100%);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
 }
 
 /************** navbar css codes***************/
@@ -29,6 +27,8 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
+  border:1px solid white;
+  border-radius: 50px;
 }
 
 .sabtn-nav{
@@ -39,15 +39,26 @@ body {
   line-height: normal;
   letter-spacing: normal;
 }
-/* .sanav-item::after{
-  content: "|";
+
+.sanav-item::after{
+  content: " ";
+  width: 0.5px;
+  height: 10px;
+  background-color: white;
   color: white;
   display: inline-block;
-} */
+  position: relative;
+  right:23px;
+  bottom: 24px;
+}
+.menu{
+  position: relative;
+top: 12px;
+}
+
 /************** end of navbar css codes***************/
 
 /************** section-nav codes***************/
-
 .section-nav{
   width: 100vw;
 }
@@ -55,13 +66,12 @@ body {
   color: white; 
 }
  .part1{
-  width: 60vw;
+  width: 50vw;
   text-align: center;
 }
 .part1 p{
   font-size: 0.7rem;
   line-height: 1.71;
-
 } 
 .scroll{
   width: 100px;
