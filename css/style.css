@@ -155,8 +155,40 @@ h6{
 }
 /************** end of product codes***************/
 
+/************** Best-selling codes***************/
+.Best-selling p{
+  color: #757575;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-align: right;
+}
 
+.pic-best1 {
+  padding-right: 0;
+}
+.pic-best4 {
+  padding-left: 0;
 
+}
+.img-best{
+
+}
+.Best-selling h6{
+ font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+/**************end of Best-selling codes***************/
 
 
 
