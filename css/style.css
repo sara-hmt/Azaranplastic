@@ -55,16 +55,15 @@ top: 12px;
 }
 
 /************** end of navbar css codes***************/
-
-
 /************** end of header css codes***************/
 
-/************** section-nav codes***************/
 
+
+/************** section-nav codes***************/
 .section1{
   color: white; 
 }
- .part1{
+.part1{
   width: 55vw;
   text-align: center;
 }
@@ -89,7 +88,41 @@ top: 12px;
 /************** end of section-nav codes***************/
 
 
-/************** end of section-nav codes***************/
+/************** about codes***************/
+.container{
+  width: 80vw;
+}
+h2{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-align: right;
+  color: #ca1119;
+}
+h6{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-align: right;
+  color: #040001;
+}
+.about p{
+  color: #757575;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-align: right;
+}
+/************** end of about codes***************/
 
 
 
