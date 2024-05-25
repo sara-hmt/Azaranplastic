@@ -3,18 +3,16 @@ body {
   direction: rtl;
   font-family: YekanBakh;
 }
-
+/************** header css codes***************/
 .sanavbar-pic {
   background-image: url("../images/navbarpic.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
 }
 .sanavbar-pic2{
-  background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.3) 52%, #000 100%);
-  background-size: cover;
+  background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.15) 52%, #000 100%);
+  background-size:cover;
   background-repeat: no-repeat;
-  width: 100vw;
 }
 
 /************** navbar css codes***************/
@@ -58,15 +56,16 @@ top: 12px;
 
 /************** end of navbar css codes***************/
 
+
+/************** end of header css codes***************/
+
 /************** section-nav codes***************/
-.section-nav{
-  width: 100vw;
-}
+
 .section1{
   color: white; 
 }
  .part1{
-  width: 50vw;
+  width: 55vw;
   text-align: center;
 }
 .part1 p{
@@ -86,7 +85,25 @@ top: 12px;
   top:5px;
   right:10px;
 }
+
 /************** end of section-nav codes***************/
+
+
+/************** end of section-nav codes***************/
+
+
+
+
+
+
+
+
+
+
+
+.text-footer{
+  color: #c6c6c6;
+}
 
 
 
