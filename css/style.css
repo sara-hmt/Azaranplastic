@@ -137,7 +137,6 @@ h6{
 }
 .categorization span{
   position: relative;
-  top: ;
 }
 .product p{
   color: #757575;
@@ -174,9 +173,7 @@ h6{
   padding-left: 0;
 
 }
-.img-best{
 
-}
 .Best-selling h6{
  font-size: 12px;
   font-weight: 500;
@@ -191,6 +188,56 @@ h6{
 /**************end of Best-selling codes***************/
 
 
+
+/**************form codes***************/
+.saform-pic {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/form-pic.png');
+  background-position: center;
+  background-size: cover;
+} 
+.saform-pic2{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size:cover;
+}
+.form p{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+.form h3{
+  color: #fff;
+}
+/**************end of form codes***************/
+/**************end of form codes***************/
+
+article p {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #757575;
+}
+.article p{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #595959;
+}
 
 
 
