@@ -217,7 +217,7 @@ h6{
   color: #fff;
 }
 /**************end of form codes***************/
-/**************end of form codes***************/
+/**************article codes***************/
 
 article p {
   font-size: 14px;
@@ -238,19 +238,76 @@ article p {
   letter-spacing: normal;
   color: #595959;
 }
+/**************end of article codes***************/
 
-
-
-
-
-
-.text-footer{
-  color: #c6c6c6;
+/**************footer codes***************/
+.Social-media{
+  background-color: #0f0f0f;
 }
 
+/* submit email code ***********************/
+.submit-btn{
+position: absolute;
+left:5px;
+bottom: 3.5px;
+}
+/* submit email code ***********************/
 
+
+
+
+
+
+
+
+/**************end of footer codes*************************************************/
 
 @font-face{
   font-family: YekanBakh;
   src:url('../fonts/YekanBakh-Regular.ttf')
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?klj74w');
+  src:  url('../fonts/icomoon.eot?klj74w#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?klj74w') format('truetype'),
+    url('../fonts/icomoon.woff?klj74w') format('woff'),
+    url('../font/icomoon.svg?klj74w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
 }
