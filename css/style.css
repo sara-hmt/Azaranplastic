@@ -56,7 +56,10 @@ top: 12px;
 
 /************** end of navbar css codes***************/
 /************** end of header css codes***************/
-
+.tell{
+  border-left:0.5px solid #c4c4c4;
+  border-right:0.5px solid #c4c4c4;
+}
 
 
 /************** section-nav codes***************/
@@ -72,17 +75,17 @@ top: 12px;
   line-height: 1.71;
 } 
 .scroll{
-  width: 100px;
   color: white;
   transform: rotate(-90deg);
   position: absolute;
-  top: 300px;
-  left: 120px;
+  top: 395px;
+  left: 125px;
 }
-.scroll svg{
+.scroll img{
+  transform: rotate(90deg);
   position: relative;
-  top:5px;
-  right:10px;
+  bottom: 6px;
+  right:18px;
 }
 
 /************** end of section-nav codes***************/
@@ -191,8 +194,6 @@ h6{
 
 /**************form codes***************/
 .saform-pic {
-  width: 100vw;
-  height: 100vh;
   background-image: url('../images/form-pic.png');
   background-position: center;
   background-size: cover;
