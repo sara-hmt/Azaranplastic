@@ -206,7 +206,7 @@ h6{
   background-color: rgba(0, 0, 0, 0.7);
   background-size:cover;
 }
-.form p{
+.form{
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -218,6 +218,13 @@ h6{
 }
 .form h3{
   color: #fff;
+}
+.transparent-input {
+  background-color: transparent;
+ }
+
+input::placeholder {
+  color: red;
 }
 /**************end of form codes***************/
 /**************article codes***************/
