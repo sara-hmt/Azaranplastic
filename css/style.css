@@ -113,9 +113,10 @@ h2{
   text-align: right;
   color: #ca1119;
 }
+
 h6{
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -146,9 +147,7 @@ h6{
   display: inline-block;
   
 }
-.categorization span{
-  position: relative;
-}
+
 .product p{
   color: #757575;
   font-size: 14px;
@@ -163,6 +162,9 @@ h6{
   width: 61px;
   height: 63px;
 }
+.information{
+  font-size: 14px;
+}
 /************** end of product codes***************/
 
 /************** Best-selling codes***************/
@@ -175,14 +177,6 @@ h6{
   line-height: normal;
   letter-spacing: 0.28px;
   text-align: right;
-}
-
-.pic-best1 {
-  padding-right: 0;
-}
-.pic-best4 {
-  padding-left: 0;
-
 }
 
 .Best-selling h6{
