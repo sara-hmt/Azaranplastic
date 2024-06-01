@@ -55,25 +55,37 @@ top: 12px;
 }
 
 /************** end of navbar css codes***************/
-/************** end of header css codes***************/
-.tell{
-  border-left:0.5px solid #c4c4c4;
-  border-right:0.5px solid #c4c4c4;
-}
+/************** end of header css codes*************/
+
+
 
 
 /************** section-nav codes***************/
 .section1{
+  width: 56%;
   color: white; 
 }
 .part1{
-  width: 55vw;
   text-align: center;
 }
 .part1 p{
   font-size: 0.7rem;
   line-height: 1.71;
 } 
+h1{
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f3f3f4;
+}
+.tell{
+  border-left:0.5px solid #c4c4c4;
+  border-right:0.5px solid #c4c4c4;
+}
 .scroll{
   color: white;
   transform: rotate(-90deg);
