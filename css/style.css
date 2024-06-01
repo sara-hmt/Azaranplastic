@@ -29,15 +29,6 @@ body {
   border-radius: 50px;
 }
 
-.sabtn-nav{
-  font-size: 12px;
-  font-weight: 200;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-}
-
 .sanav-item::after{
   content: " ";
   width: 0.5px;
@@ -62,7 +53,7 @@ top: 12px;
 
 /************** section-nav codes***************/
 .section1{
-  width: 56%;
+  width: 55%;
   color: white; 
 }
 .part1{
@@ -83,8 +74,13 @@ h1{
   color: #f3f3f4;
 }
 .tell{
-  border-left:0.5px solid #c4c4c4;
-  border-right:0.5px solid #c4c4c4;
+  border-left:0.4px solid #c4c4c4;
+  border-right:0.4px solid #c4c4c4;
+}
+.connect{
+font-size: 85%;
+position: relative;
+top:40px;
 }
 .scroll{
   color: white;
