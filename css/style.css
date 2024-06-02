@@ -202,7 +202,7 @@ h6{
 } 
 .saform-pic2{
   width: 100vw;
-  height: 750px;
+  height:800px;
   background-color: rgba(0, 0, 0, 0.7);
   background-size:cover;
 }
@@ -262,9 +262,9 @@ article p {
 
 /**************footer codes***************/
 .submit-btn{
-position: absolute;
-left:5px;
-bottom: 3.5px;
+ position: absolute;
+ left:5px;
+ bottom: 4.5px;
 }
 
 .social-media{
