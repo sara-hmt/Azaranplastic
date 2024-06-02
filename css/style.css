@@ -257,6 +257,16 @@ article p {
   letter-spacing: normal;
   color: #595959;
 }
+.article h6{
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000;
+}
 /**************end of article codes***************/
 
 
