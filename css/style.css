@@ -202,7 +202,7 @@ h6{
 } 
 .saform-pic2{
   width: 100vw;
-  height: 100vh;
+  height: 750px;
   background-color: rgba(0, 0, 0, 0.7);
   background-size:cover;
 }
@@ -216,19 +216,28 @@ h6{
   text-align: right;
   color: #fff;
 }
-.form h3{
-  color: #fff;
-}
+
 .transparent-input {
   background-color: transparent;
- }
-
-input::placeholder {
-  color: red;
+  padding-top: 8px;
 }
-/**************end of form codes***************/
-/**************article codes***************/
 
+.transparent-input::placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+  padding-right: 5px;
+}
+
+/**************end of form codes***************/
+
+
+/**************article codes***************/
 article p {
   font-size: 14px;
   font-weight: normal;
@@ -250,8 +259,8 @@ article p {
 }
 /**************end of article codes***************/
 
-/**************footer codes***************/
 
+/**************footer codes***************/
 .submit-btn{
 position: absolute;
 left:5px;
@@ -272,11 +281,9 @@ footer p {
   color: #f5f5f5;
 }
 
-
-
-
-
 /**************end of footer codes*************************************************/
+
+
 
 @font-face{
   font-family: YekanBakh;
